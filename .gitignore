@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- 本地索引（不进 git） / local index ---
+.rule_index/
+
+# --- 内容文件夹：只保留占位 .gitkeep，其余一律忽略 ---
+# Content folders: keep only .gitkeep, ignore everything else (copyright-sensitive)
+规则书_Rulebooks/*
+!规则书_Rulebooks/.gitkeep
+世界观_Worldbuilding/*
+!世界观_Worldbuilding/.gitkeep
+模组_Modules/*
+!模组_Modules/.gitkeep
+角色卡_CharacterSheets/*
+!角色卡_CharacterSheets/.gitkeep
+存档_Saves/*
+!存档_Saves/.gitkeep
+战斗_Combats/*
+!战斗_Combats/.gitkeep
+
+# --- 其它 / misc ---
+.DS_Store
+Thumbs.db
+*.log
